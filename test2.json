@@ -1,0 +1,26 @@
+as": "testubuntu12",
+  "hostname": "testubuntu12",
+  "brand": "kvm",
+  "vcpus": 1,
+  "ram": 8192
+,
+  "resolvers": [ "10.0.0.1" ],
+  "disks": [
+    {
+      "image_uuid": "1327ed36-5130-11e2-95a8-9b5a153adf3e",
+      "boot": true,
+      "model": "virtio",
+      "size": 10240
+    }
+  ],
+  "nics": [
+    {
+      "nic_tag": "admin",
+      "model": "virtio",
+      "ip": "10.0.0.22",
+      "netmask": "255.255.255.0",
+      "gateway": "10.0.0.1",
+      "primary": "true"
+    }
+  ]
+}
